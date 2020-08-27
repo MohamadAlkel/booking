@@ -1,0 +1,23 @@
+.my-booking {
+    width: 40%;
+    background-color: var(--foreground-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: var(--size-2);
+    margin-bottom: var(--size-2);
+
+    .book {
+        width: 40%;
+        margin: auto;
+        margin-top: var(--size-1);
+    }
+}
+
+.booking-info {
+    position: absolute;
+    top: 350px;
+    background-color: var(--foreground-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: var(--size-2);
+}

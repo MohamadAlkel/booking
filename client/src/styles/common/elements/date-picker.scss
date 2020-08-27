@@ -1,0 +1,42 @@
+.date-wrapper {
+    .label {
+        display: block;
+        color: var(--dark-gray);
+        margin-bottom: var(--margin-bottom-label);
+    }
+
+    .react-date-picker {
+        width: var(--input-width);
+        
+        .react-date-picker__wrapper {
+            background-color: var(--input-color);
+            padding: 10px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            border-radius: var(--small-radius);
+            border: 1px solid var(--secondary-color-light);
+            padding: var(--size-8) var(--size-8);
+            margin-bottom: var(--size-9);
+            font-size: var(--input-font-size);
+
+            .react-date-picker__button__icon {
+                stroke: var(--secondary-color);
+            }
+        }
+
+        .react-date-picker__inputGroup__month {
+            -webkit-appearance: none;
+
+            option {
+                display: none;
+            }
+        }
+    }
+
+    .error-msg {
+        color: var(--error-color);
+        margin: 0;
+        font-size: var(--font-size-1);
+    }
+    
+}

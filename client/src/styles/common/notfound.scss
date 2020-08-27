@@ -1,0 +1,37 @@
+.notfound-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background: var(--white);
+    z-index: 1;
+
+    .content {
+        position: relative;
+        top: 25%;
+
+        .header {
+            font-size: 192px;
+            color: var(--dark-blue);
+            line-height: 1;
+            font-weight: 500;
+        }
+
+        .desc {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 20px 0 60px;
+        }
+
+        .link {
+            button {
+                width: 200px;
+                font-size: 16px;
+            }
+        }
+    }
+}

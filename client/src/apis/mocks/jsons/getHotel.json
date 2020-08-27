@@ -1,0 +1,50 @@
+[
+    {
+        "id": 12,
+        "ref": 1232,
+        "name": "Hotel To Test availability",
+        "location": "kl",
+        "img":"https://lh5.googleusercontent.com/p/AF1QipN4hqSqKtKvmBhrzQfRbzrK2o4YQxpJxRF6-MBg=w325-h243-k-no",
+        "booked": false
+    },
+    {
+        "id": 14,
+        "ref": 4537,
+        "name": "Hotel To ability",
+        "location": "bukit",
+        "img":"https://lh5.googleusercontent.com/p/AF1QipN4hqSqKtKvmBhrzQfRbzrK2o4YQxpJxRF6-MBg=w325-h243-k-no",
+        "booked": false
+    },
+    {
+        "id": 13,
+        "ref": 4453,
+        "name": "mohamd",
+        "location": "kl",
+        "img":"https://lh5.googleusercontent.com/p/AF1QipN4hqSqKtKvmBhrzQfRbzrK2o4YQxpJxRF6-MBg=w325-h243-k-no",
+        "booked": true
+    },
+    {
+        "id": 6,
+        "ref": 4997,
+        "name": "mohamd",
+        "location": "kl",
+        "img":"https://lh5.googleusercontent.com/p/AF1QipN4hqSqKtKvmBhrzQfRbzrK2o4YQxpJxRF6-MBg=w325-h243-k-no",
+        "booked": false
+    },
+    {
+        "id": 34,
+        "ref": 1153,
+        "name": "mohamd",
+        "location": "kl",
+        "img":"https://lh5.googleusercontent.com/p/AF1QipN4hqSqKtKvmBhrzQfRbzrK2o4YQxpJxRF6-MBg=w325-h243-k-no",
+        "booked": true
+    },
+    {
+        "id": 2,
+        "ref": 4642,
+        "name": "mohamd",
+        "location": "kl",
+        "img":"https://lh5.googleusercontent.com/p/AF1QipN4hqSqKtKvmBhrzQfRbzrK2o4YQxpJxRF6-MBg=w325-h243-k-no",
+        "booked": false
+    }
+]

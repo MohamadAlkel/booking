@@ -1,0 +1,83 @@
+.btn-container {
+
+    >.button {
+        cursor: pointer;
+        border: none;
+        padding: var(--size-9) 5px;
+        line-height: var(--line-height-2);
+        border-radius: var(--small-radius);
+        color: var(--foreground-color);
+        background-color: var(--primary-color);
+        height: var(--input-height);
+        outline: none;
+        width: 100%;
+
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+
+        &:disabled {
+            background-color: var(--gray);
+        }
+
+        >.button-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >.button-label {
+                font-size: var(--size-4);
+            }
+
+            >.btn-icon {
+                line-height: var(--line-height-1);
+                padding-right: var(--size-9);
+                fill: var(--foreground-color);
+            }
+        }
+    }
+
+    &.secondary {
+        .button {
+            background-color: var(--foreground-color);
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+
+            .btn-icon {
+                fill: var(--primary-color);
+            }
+
+            &:hover {
+                background-color: var(--primary-color);
+                color: var(--foreground-color);
+                border: 2px solid var(--foreground-color);
+
+                .btn-icon {
+                    fill: var(--foreground-color);
+                }
+            }
+        }
+    }
+
+    &.secondary-without-border {
+        .button {
+            background-color: var(--foreground-color);
+            color: var(--primary-color);
+            border: none;
+
+            .btn-icon {
+                fill: var(--primary-color);
+            }
+
+            &:hover {
+                background-color: var(--primary-color);
+                color: var(--foreground-color);
+                border: 2px solid var(--foreground-color);
+
+                .btn-icon {
+                    fill: var(--foreground-color);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.title-bar {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: var(--foreground-color);
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+
+    .logo {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-size: var(--size-1);
+        font-weight: bold;
+        margin-left: var(--size-4);
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .nav-text {
+            color: var(--secondary-color);
+            text-decoration: none;
+            margin-right: 60px;
+        }
+
+        .nav-icon {
+            fill: var(--secondary-color);
+            margin-right: var(--size-6);
+            position: relative;
+            top: 5px;
+        }
+
+        .active-nav {
+            color: var(--primary-color);
+
+            .nav-icon {
+                fill: var(--primary-color);
+            }
+        }
+    }
+}
+
+@include breakpoints(phone) {
+    .title-bar {
+        top: unset;
+        bottom: 0;
+
+        .menu {
+            justify-content: space-around;
+
+            .nav-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: unset;
+
+                .nav-icon {
+                    margin-right: unset;
+                    margin-bottom: var(--size-8);
+                }
+            }
+        }
+
+        .logo {
+            display: none;
+        }
+    }
+}
+
+@include breakpoints(tablet) {
+    .title-bar {
+        top: unset;
+        bottom: 0;
+
+        .menu {
+            justify-content: space-around;
+
+            .nav-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: unset;
+
+                .nav-icon {
+                    margin-right: unset;
+                    margin-bottom: var(--size-8);
+                }
+            }
+        }
+
+        .logo {
+            display: none;
+        }
+    }
+}

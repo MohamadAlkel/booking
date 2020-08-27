@@ -1,0 +1,48 @@
+.card {
+    width: 40%;
+    background-color: var(--foreground-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: var(--size-2);
+    margin: auto;
+    margin-bottom: var(--size-2);
+
+    .warp-image {
+        width: 100%;
+        max-height: 400px;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+
+        .card-image {
+            border-radius: var(--border-radius);
+            width: 100%;
+            box-shadow: var(--box-shadow);
+        }
+    }
+
+
+    .card-info {
+        overflow: hidden;
+
+        .price {
+            font-size: 24px;
+            color: var(--primary-color);
+        }
+
+        .availability {
+            color: var(--error-color);
+        }
+    }
+}
+
+@include breakpoints(phone) {
+    .wrap-hotel-list {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
